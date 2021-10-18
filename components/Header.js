@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import HeaderItem from "./HeaderItem";
 import {
   BadgeCheckIcon,
