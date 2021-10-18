@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import { ThumbUpIcon } from "@heroicons/react/outline";
 import { forwardRef } from "react";
 
@@ -10,8 +10,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
       ref={ref}
       className="group p-2 cursor-pointer transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50"
     >
-      {/* <Image
-        loader="imgix"
+      <Image
         layout="responsive"
         src={
           `${BASE_URL}${result.backdrop_path || result.poster_path}` ||
@@ -19,7 +18,7 @@ const Thumbnail = forwardRef(({ result }, ref) => {
         }
         height={1080}
         width={1920}
-      /> */}
+      />
 
       <div className="p-2">
         <p className="truncate max-w-md">{result.overview}</p>
