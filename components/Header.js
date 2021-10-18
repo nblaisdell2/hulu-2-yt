@@ -21,13 +21,13 @@ function Header() {
         <HeaderItem title="ACCOUNT" Icon={UserIcon} />
       </div>
 
-      <Image
+      {/* <Image
         loader="imgix"
         src="https://links.papareact.com/ua6"
         className="object-contain"
         width={200}
         height={100}
-      />
+      /> */}
     </header>
   );
 }
