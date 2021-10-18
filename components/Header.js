@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 import HeaderItem from "./HeaderItem";
 import {
   BadgeCheckIcon,
@@ -21,13 +21,12 @@ function Header() {
         <HeaderItem title="ACCOUNT" Icon={UserIcon} />
       </div>
 
-      {/* <Image
-        loader="imgix"
+      <Image
         src="https://links.papareact.com/ua6"
         className="object-contain"
         width={200}
         height={100}
-      /> */}
+      />
     </header>
   );
 }
